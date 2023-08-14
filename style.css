@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,20 +6,20 @@
     background-color: #90cef9;
 }
 
-header{
+header {
     padding: 20px;
     background-color: #549dec;
     align-items: center;
     display: flex;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid black;
 }
 
-header img{
+header img {
     width: 100px;
     background-color: #549dec;
 }
 
-header h1{
+header h1 {
     font-size: 25pt;
     color: aliceblue;
     padding-left: 15px;
@@ -27,14 +27,15 @@ header h1{
     font-family: 'Caprasimo', cursive;
 }
 
-form{
+form {
     text-align: center;
     padding: 20px;
     background-color: #72b6f2;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid black;
 }
 
-form input, form button{
+form input,
+form button {
     height: 50px;
     width: 500px;
     margin: 0 auto;
@@ -47,29 +48,29 @@ form input {
     background-color: #ffffff;
 }
 
-form button{
+form button {
     background-color: #3685e5;
     color: aliceblue;
     cursor: pointer;
 }
 
-form input:focus{
-    outline:3px solid #3685e5;
+form input:focus {
+    outline: 3px solid #3685e5;
 }
 
-form button:hover{
+form button:hover {
     background-color: #3685e5;
     color: #ffffff;
 }
 
 
-table{
+table {
     margin: 0 auto;
     margin-top: 50px;
     width: 1000px;
 }
 
-table th{
+table th {
     background-color: #ffffff;
     border: 2px solid black;
     padding: 10px;
@@ -84,5 +85,3 @@ table td {
     font-size: 15pt;
     border: 1px solid black;
 }
-
-
